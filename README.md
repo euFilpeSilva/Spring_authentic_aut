@@ -32,3 +32,18 @@ Substitua os valores de spring.datasource.url, spring.datasource.username e spri
 3 - Rodar `mvn spring-boot:run` para subir a aplicação
 
 4 - A aplicação estará disponível na port `8080`
+
+### Endpoints
+O projeto possui os seguintes endpoints:
+
+- /api/user/create: Cria um novo usuário com nome de usuário e senha fornecidos.
+- /api/users/role: Vincula roles a um usuario.
+- /api/products: Lista todos os produtos cadastrados no sistema.
+
+### Tecnologias Utilizadas
+- Spring Boot: Framework Java para criar aplicativos web.
+- Spring Security: Framework de segurança para autenticação e controle de acesso.
+- JPA (Java Persistence API): API de persistência para mapeamento objeto-relacional.
+- Lombok: Biblioteca Java para reduzir a verbosidade do código.
+- MySQL: Banco de dados relacional utilizado.
+- Postman pra fazer os testes com os endpoints.
