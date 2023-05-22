@@ -14,11 +14,11 @@ Certifique-se de ter criado um banco de dados no MySQL para o projeto.
 Abra o arquivo application.properties localizado na pasta src/main/resources.
 Substitua os valores de spring.datasource.url, spring.datasource.username e spring.datasource.password pelas informações do seu banco de dados MySQL.
 
-* Ex:
+###### Ex:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/meu_banco_de_dados
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
+- spring.datasource.url=jdbc:mysql://localhost:3306/meu_banco_de_dados
+- spring.datasource.username=seu_usuario
+- spring.datasource.password=sua_senha
 
 
 
