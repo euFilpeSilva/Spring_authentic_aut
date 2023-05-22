@@ -1,7 +1,8 @@
-Projeto Spring Boot com Autenticação Básica
+# Projeto Spring Boot com Autenticação Básica
+
 Este é um projeto Spring Boot com autenticação básica implementada usando Spring Security. O projeto utiliza JPA (Java Persistence API) para a camada de persistência e Lombok para reduzir a verbosidade do código.
 
-Pré-requisitos
+## Pré-requisitos
 Antes de executar este projeto, verifique se você tem os seguintes pré-requisitos instalados:
 
 Java Development Kit (JDK) versão 8 ou superior
@@ -9,7 +10,7 @@ Maven (https://maven.apache.org/) instalado
 MySQL Server (https://www.mysql.com/) instalado
 Certifique-se de ter criado um banco de dados no MySQL para o projeto.
 
-Configuração do Banco de Dados
+### Configuração do Banco de Dados
 Abra o arquivo application.properties localizado na pasta src/main/resources.
 Substitua os valores de spring.datasource.url, spring.datasource.username e spring.datasource.password pelas informações do seu banco de dados MySQL.
 
